@@ -7,14 +7,11 @@ namespace Session1
 {
     public partial class MainWindow : Window
     {
-        private readonly IRepository<Client> _repository;
+        
 
-        public MainWindow(IRepository<Client> repository)
+        public MainWindow()
         {
             InitializeComponent();
-
-            _repository = repository;
-            
         }
     }
 }
